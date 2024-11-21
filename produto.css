@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #a0522d; 
+    color: #FFDE59; 
+    padding: 15px 30px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px; 
+    margin: 0; 
+}
+
+nav a {
+    color: #FFDE59; 
+    text-decoration: none; 
+    font-size: large;
+    padding: 5px 10px; 
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #d2691e; 
+    border-radius: 5px; 
+}
+
+.banner {
+    text-align: center;
+    padding: 250px;
+    background-image: url('img/toca-discos-banner.jpg'); 
+    background-size: cover; /* Faz a imagem cobrir toda a área do banner */
+    background-position: center; 
+    background-repeat: no-repeat; 
+   
+}
+/* acessorio */
+
+.acessorios {
+    background-color: #d1a279; 
+    padding: 20px
+}
+
+.titulo-acessorios {
+    display: inline-block;
+    background-color: #a6541a; 
+    padding: 13px 35px; 
+    border-radius: 20px; 
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.acessorios h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.acessorios-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.acessorio-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.acessorio-item:hover {
+    transform: scale(1.05);
+}
+
+.acessorio-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.acessorio-item p {
+    font-size: 14px;
+    color: #4e2000;
+    margin-bottom: 8px;
+}
+
+.acessorio-item span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b36800;
+}
+/* fim do acessorio */
+
+/* coleção */
+.colecao {
+    background-color: #d1a279; 
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-colecao {
+    display: inline-block;
+    background-color: #a6541a; 
+    color: #ffffff; 
+    padding: 13px 40px; 
+    border-radius: 20px; 
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.colecao-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.colecao-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.colecao-item:hover {
+    transform: scale(1.05);
+}
+
+.colecao-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.colecao-item p {
+    font-size: 14px;
+    color: #4e2000;
+    margin-bottom: 8px;
+}
+
+.colecao-item span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b36800;
+}
+
+/* fim da coleção */
+
+/* vitrola*/
+.vitrola {
+    background-color: #d1a279; 
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-vitrola {
+    display: inline-block;
+    background-color: #a6541a; 
+    color: #ffffff; 
+    padding: 13px 50px; 
+    border-radius: 20px; 
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.vitrola-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vitrola-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.vitrola-item:hover {
+    transform: scale(1.05);
+}
+
+.vitrola-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.vitrola-item p {
+    font-size: 14px;
+    color: #4e2000;
+    margin-bottom: 8px;
+}
+
+.vitrola-item span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b36800;
+}
+/* fim da vitrola */
+
+/* discos */
+.disco {
+    background-color: #d1a279; 
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-disco {
+    display: inline-block;
+    background-color: #a6541a; 
+    color: #ffffff; 
+    padding: 13px 50px; 
+    border-radius: 20px; 
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.disco-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.disco-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.disco-item:hover {
+    transform: scale(1.05);
+}
+
+.disco-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.disco-item p {
+    font-size: 14px;
+    color: #4e2000;
+    margin-bottom: 8px;
+}
+
+.disco-item span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b36800;
+}
+/* fim da discos */
+
+.rodape-container {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    padding: 15px;
+    background-color: #a0522d;
+    justify-content: center;
+}
+
+.rodape-container div {
+    margin: 25px;
+    font-size: large;
+}
+
+.menu-rodape li a{
+    color: black;
+}
+
+.metodos-pagamento img {
+    margin-left: 20px;
+    width: 70px;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .rodape-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-container div {
+        width: 100%;
+        text-align: center;
+    }
+}

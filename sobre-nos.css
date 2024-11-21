@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1a279; ; 
+}
+
+header {
+    background-color: #a0522d; 
+    color: #FFDE59; 
+    padding: 15px 30px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px; 
+    margin: 0; 
+}
+
+nav a {
+    color: #FFDE59; 
+    text-decoration: none; 
+    font-size: large;
+    padding: 5px 10px; 
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #d2691e; 
+    border-radius: 5px; 
+}
+
+.container-sobre-nos {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa 100% da altura da tela */
+}
+
+.sobre-nos {
+    background-color: #fcd760; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 60px auto;
+    width: 80%; 
+    color: #000000; 
+    text-align: center; 
+}
+
+.sobre-nos h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sobre-nos p {
+    margin: 10px 0;
+    line-height: 1.6; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"] {
+    width: 70%; 
+    padding: 10px;
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #aa4b2c; 
+    color: #f8f8f8; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rodape-container {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    padding: 10px;
+    background-color: #a0522d;
+    margin-top: 170px;
+    justify-content: center;
+}
+
+.rodape-container div {
+    margin: 20px;
+    font-size: large;
+}
+
+.menu-rodape li a{
+    color: black;
+}
+
+.metodos-pagamento img {
+    margin-left: 20px;
+    width: 70px;
+    font-size: large;
+}
+
+/* Responsividade: ajustes para telas menores */
+@media (max-width: 768px) {
+    .rodape-container {
+        flex-direction: column; /* Alinha os itens em coluna para telas pequenas */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .rodape-container div {
+        width: 100%; /* Ajusta a largura para 100% em telas pequenas */
+        text-align: center; /* Centraliza o texto */
+    }
+}

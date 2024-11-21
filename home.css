@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a0522d; 
+    color: #FFDE59; 
+    padding: 15px 30px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px; 
+    margin: 0; 
+}
+
+nav a {
+    color: #FFDE59; 
+    text-decoration: none; 
+    font-size: large;
+    padding: 5px 10px; 
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #d2691e; 
+    border-radius: 5px; 
+}
+
+.fundo {
+    background-color: #d1a279; 
+    padding: 10px;
+}
+
+.banner {
+    text-align: center;
+    padding: 250px;
+    background-image: url('img/bannner-home.gif'); 
+    background-size: cover; /* Faz a imagem cobrir toda a área do banner */
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.acessorios {
+    background-color: #c49c6d; 
+    padding: 20px
+}
+
+.destaques {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.item-destaque {
+    text-align: center;
+    width: 20%;
+}
+
+.item-destaque img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.rodape-container {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    padding: 15px;
+    background-color: #a0522d;
+    justify-content: center;
+}
+
+.rodape-container div {
+    margin: 25px;
+    font-size: large;
+}
+
+.menu-rodape li a{
+color: black;
+}
+
+.metodos-pagamento img {
+    margin-left: 20px;
+    width: 70px;
+}
+
+@media (max-width: 768px) {
+    .rodape-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-container div {
+        width: 100%;
+        text-align: center;
+    }
+}
